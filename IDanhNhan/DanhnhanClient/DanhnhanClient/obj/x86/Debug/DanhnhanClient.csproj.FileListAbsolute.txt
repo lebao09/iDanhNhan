@@ -1,0 +1,18 @@
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\bin\Debug\DanhnhanClient.exe
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\bin\Debug\DanhnhanClient.pdb
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.LoginForm.resources
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.Properties.Resources.resources
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.exe
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.pdb
+C:\Users\Corn\documents\visual studio 2010\Projects\DanhnhanClient\DanhnhanClient\bin\Debug\DanhnhanClient.exe.config
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.MainForm.resources
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.exe.licenses
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.Detail.resources
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.AccountInformation.resources
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.TimKiem.resources
+E:\HoaSen\Webservice\IDanhNhan\DanhnhanClient\DanhnhanClient\bin\Debug\DanhnhanClient.exe.config
+E:\HoaSen\Webservice\IDanhNhan\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.exe
+E:\HoaSen\Webservice\IDanhNhan\DanhnhanClient\DanhnhanClient\obj\x86\Debug\DanhnhanClient.pdb

@@ -1,0 +1,13 @@
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\bin\Debug\DanhnhanHost.exe
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\bin\Debug\DanhnhanHost.pdb
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\obj\x86\Debug\DanhnhanHost.Form1.resources
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\obj\x86\Debug\DanhnhanHost.Properties.Resources.resources
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\obj\x86\Debug\DanhnhanHost.exe
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\obj\x86\Debug\DanhnhanHost.pdb
+c:\users\corn\documents\visual studio 2010\Projects\DanhnhanHost\DanhnhanHost\bin\Debug\DanhnhanHost.exe.config
+E:\HoaSen\Webservice\IDanhNhan\DanhnhanHost\DanhnhanHost\bin\Debug\DanhnhanHost.exe.config
+E:\HoaSen\Webservice\IDanhNhan\DanhnhanHost\DanhnhanHost\obj\x86\Debug\DanhnhanHost.exe
+E:\HoaSen\Webservice\IDanhNhan\DanhnhanHost\DanhnhanHost\obj\x86\Debug\DanhnhanHost.pdb

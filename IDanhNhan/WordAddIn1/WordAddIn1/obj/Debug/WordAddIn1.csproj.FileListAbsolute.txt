@@ -1,0 +1,15 @@
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.dll
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.pdb
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.dll.manifest
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.vsto
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.Properties.Resources.resources
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.dll
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.pdb
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.Danhnhanform.resources
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.dll.config
+C:\Users\Corn\Documents\Visual Studio 2010\Projects\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.dll.licenses

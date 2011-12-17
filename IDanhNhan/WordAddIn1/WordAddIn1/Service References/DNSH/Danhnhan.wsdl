@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Danhnhan" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8000/BasicHttpBinding?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8000/BasicHttpBinding?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8000/BasicHttpBinding?xsd=xsd2" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDanhnhan_GetAuthors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAuthors" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetAuthors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAuthorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_Detai_InputMessage">
+    <wsdl:part name="parameters" element="tns:Detai" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_Detai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DetaiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_ShowAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShowAll" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_ShowAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShowAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_ShowImage_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShowImage" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_ShowImage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShowImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_ExcuteNoneQuery_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExcuteNoneQuery" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_ExcuteNoneQuery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExcuteNoneQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTable" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTenDanhMuc_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTenDanhMuc" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTenDanhMuc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTenDanhMucResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTen_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTen" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetDanhHieu_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDanhHieu" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetDanhHieu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDanhHieuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNienHieu_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNienHieu" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNienHieu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNienHieuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNgaySinh_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNgaySinh" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNgaySinh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNgaySinhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNgayMat_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNgayMat" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNgayMat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNgayMatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNoiSinh_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNoiSinh" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetNoiSinh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNoiSinhResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTaiNang_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaiNang" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetTaiNang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaiNangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetSuNghiep_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuNghiep" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetSuNghiep_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSuNghiepResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetThanhTuu_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetThanhTuu" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetThanhTuu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetThanhTuuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetHoatDong_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHoatDong" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetHoatDong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHoatDongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetGiaiThuong_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGiaiThuong" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetGiaiThuong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGiaiThuongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetPathHinhanh_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPathHinhanh" />
+  </wsdl:message>
+  <wsdl:message name="IDanhnhan_GetPathHinhanh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPathHinhanhResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDanhnhan">
+    <wsdl:operation name="GetAuthors">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetAuthors" message="tns:IDanhnhan_GetAuthors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetAuthorsResponse" message="tns:IDanhnhan_GetAuthors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Detai">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/Detai" message="tns:IDanhnhan_Detai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/DetaiResponse" message="tns:IDanhnhan_Detai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/ShowAll" message="tns:IDanhnhan_ShowAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/ShowAllResponse" message="tns:IDanhnhan_ShowAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/ShowImage" message="tns:IDanhnhan_ShowImage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/ShowImageResponse" message="tns:IDanhnhan_ShowImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExcuteNoneQuery">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/ExcuteNoneQuery" message="tns:IDanhnhan_ExcuteNoneQuery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/ExcuteNoneQueryResponse" message="tns:IDanhnhan_ExcuteNoneQuery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetTable" message="tns:IDanhnhan_GetTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetTableResponse" message="tns:IDanhnhan_GetTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTenDanhMuc">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetTenDanhMuc" message="tns:IDanhnhan_GetTenDanhMuc_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetTenDanhMucResponse" message="tns:IDanhnhan_GetTenDanhMuc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetTen" message="tns:IDanhnhan_GetTen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetTenResponse" message="tns:IDanhnhan_GetTen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDanhHieu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetDanhHieu" message="tns:IDanhnhan_GetDanhHieu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetDanhHieuResponse" message="tns:IDanhnhan_GetDanhHieu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNienHieu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetNienHieu" message="tns:IDanhnhan_GetNienHieu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetNienHieuResponse" message="tns:IDanhnhan_GetNienHieu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNgaySinh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetNgaySinh" message="tns:IDanhnhan_GetNgaySinh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetNgaySinhResponse" message="tns:IDanhnhan_GetNgaySinh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNgayMat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetNgayMat" message="tns:IDanhnhan_GetNgayMat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetNgayMatResponse" message="tns:IDanhnhan_GetNgayMat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNoiSinh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetNoiSinh" message="tns:IDanhnhan_GetNoiSinh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetNoiSinhResponse" message="tns:IDanhnhan_GetNoiSinh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaiNang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetTaiNang" message="tns:IDanhnhan_GetTaiNang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetTaiNangResponse" message="tns:IDanhnhan_GetTaiNang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSuNghiep">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetSuNghiep" message="tns:IDanhnhan_GetSuNghiep_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetSuNghiepResponse" message="tns:IDanhnhan_GetSuNghiep_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetThanhTuu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetThanhTuu" message="tns:IDanhnhan_GetThanhTuu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetThanhTuuResponse" message="tns:IDanhnhan_GetThanhTuu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHoatDong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetHoatDong" message="tns:IDanhnhan_GetHoatDong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetHoatDongResponse" message="tns:IDanhnhan_GetHoatDong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGiaiThuong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetGiaiThuong" message="tns:IDanhnhan_GetGiaiThuong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetGiaiThuongResponse" message="tns:IDanhnhan_GetGiaiThuong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPathHinhanh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDanhnhan/GetPathHinhanh" message="tns:IDanhnhan_GetPathHinhanh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDanhnhan/GetPathHinhanhResponse" message="tns:IDanhnhan_GetPathHinhanh_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDanhnhan" type="tns:IDanhnhan">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAuthors">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetAuthors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Detai">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/Detai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowAll">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/ShowAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowImage">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/ShowImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcuteNoneQuery">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/ExcuteNoneQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTable">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTenDanhMuc">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetTenDanhMuc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTen">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetTen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDanhHieu">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetDanhHieu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNienHieu">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetNienHieu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNgaySinh">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetNgaySinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNgayMat">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetNgayMat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNoiSinh">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetNoiSinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaiNang">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetTaiNang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSuNghiep">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetSuNghiep" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetThanhTuu">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetThanhTuu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHoatDong">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetHoatDong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGiaiThuong">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetGiaiThuong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPathHinhanh">
+      <soap:operation soapAction="http://tempuri.org/IDanhnhan/GetPathHinhanh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Danhnhan">
+    <wsdl:port name="BasicHttpBinding_IDanhnhan" binding="tns:BasicHttpBinding_IDanhnhan">
+      <soap:address location="http://localhost:8000/BasicHttpBinding" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
